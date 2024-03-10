@@ -12,5 +12,7 @@ except FileExistsError:
 
 shutil.copy("high.toml", path.join(root, "etc/camera.d/presets", "high.toml"))
 
-for i in ["shutdown.lja", "shutdown.py"]:
+for i in ["axp313a.lja", "axp313a.py"]:
     shutil.copy(i, path.join(root, "bin", i))
+
+shutil.copy("axp313a.man", path.join(root, "usr/share/man", "axp313a.man"))

@@ -1,6 +1,6 @@
 pixel_format = "JPEG"
-frame_size = "QXGA"
-jpeg_quality = 8
-denoise = 6
-flip = true
+frame_size = "UXGA"
+jpeg_quality = 10
+denoise = 0
+flip = false
 awb_gain = true

@@ -9,6 +9,6 @@ chdir("files")
 execstr = ""
 for filee in listdir():
     execstr += f", '{filee}'"
-execstr = "compress(" + execstr[2:] + ", '../m5x-config.jpk')" # fancy bullshittery
+execstr = "compress(" + execstr[2:] + ", '../fbs3-config.jpk')" # fancy bullshittery
 exec(execstr)
 print("Done.")

@@ -1,0 +1,10 @@
+NAME
+    axp313a - a utillity to control the AXP313A PMIC
+
+SYNOPSIS
+    axp313a -c OV2640 # to set voltages
+    axp313a -c OV7725 # to set voltages
+    axp313a -d # to deinit
+    
+DESCRIPTION
+    A utillity to control the AXP313A PMIC.
