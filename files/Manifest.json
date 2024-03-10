@@ -1,7 +1,7 @@
 {
     "JPKG_minimum_version": 2,
-    "package_name": "m5x-config",
-    "version": [1, 1, 0],
+    "package_name": "fbs3-config",
+    "version": [1, 0, 0],
     "dependencies": ["camera"],
     "conflicts": [],
     "install": "installer.py",
