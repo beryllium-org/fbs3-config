@@ -1,7 +1,7 @@
 rename_process("axp313a")
 vr("opts", be.api.xarg())
 import AXP313A
-vr("i2c", be.devices["gpiochip"][0].pin("I2C", force=True)())
+vr("i2c", be.devices["i2c"][0])
 vr("a", AXP313A.AXP313A(vr("i2c")))
 if "c" in vr("opts")["o"]:
     vr("i2c", be.devices["gpiochip"][0].pin("I2C", force=True)())

@@ -16,3 +16,4 @@ for i in ["axp313a.lja", "axp313a.py"]:
     shutil.copyfile(i, path.join(root, "bin", i))
 
 shutil.copyfile("axp313a.man", path.join(root, "usr/share/man", "axp313a.man"))
+shutil.copyfile("10-fbs3I2C.lja", path.join(root, "boot/boot.d", "10-fbs3I2C.lja"))
